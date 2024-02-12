@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("./../fonts/satoshi/Satoshi-Variable.woff2") format("woff2"),
+    url("./../fonts/satoshi/Satoshi-Variable.woff") format("woff"),
+    url("../fonts/satoshi/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./../fonts/satoshi/Satoshi-VariableItalic.woff2") format("woff2"),
+    url("./../fonts/satoshi/Satoshi-VariableItalic.woff") format("woff"),
+    url("../fonts/satoshi/Satoshi-VariableItalic.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+* {
+  font-family: "Satoshi";
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.socail-links a {
+  width: 48px;
+  padding-top: 32px;
+}
+
+.footer-text p {
+  padding-top: 24px;
+}
+
+.hero .hero__heading {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+.hero .hero__shiny {
+  background-image: url(./../img/shiny-bg.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: none;
+  background-size: cover;
+  color: white;
+  border-radius: 91px;
+  padding: 16px;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero .hero__line {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.hero .hero__line::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 50px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+}
+
+.hero .hero__text {
+  width: 46%;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.section__heading .section__header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.section__heading .section__breadcrumb {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 500;
+}
+
+.section__heading .section__breadcrumb a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.section__heading .section__breadcrumb span {
+  text-transform: capitalize;
+}
+
+.section__content {
+  margin-top: 45px;
+}
+
+.testimonials {
+  width: 80%;
+}
+
+.testimonials .gap-5 {
+  gap: 5rem !important;
+}
+
+.testimonials .testimonials__card h3 {
+  font-size: 29.22px;
+  line-height: 29.2px;
+  font-weight: 700;
+}
+.testimonials .testimonials__card p {
+  font-size: 20.45px;
+  line-height: 29.2px;
+}
+.testimonials .testimonials__card h4 {
+  font-size: 20.45px;
+  line-height: 29.2px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.pricing {
+  width: 79%;
+}
+
+.pricing .card-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.pricing .pricing__amount {
+  font-size: 44px;
+  line-height: 60px;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.pricing .pricing__amount span {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #acb4c3;
+  text-transform: capitalize;
+  margin-left: 14px;
+}
+
+.pricing ul.pricing__features {
+  list-style-image: url("./../img/star.png");
+}
+
+.pricing .best-price ul.pricing__features {
+  list-style-image: url("./../img/star-white.png");
+}
+
+.pricing ul.pricing__features li {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.pricing .card-footer a {
+  margin-top: 16px;
+  margin-top: 12px;
+}
+
+.pricing .card-body {
+  padding: 40px;
+}
+
+.pricing .card-footer {
+  padding-top: 16px;
+}
+
+.pricing .best-price .card-footer {
+  padding-top: 16px;
+  border-top-color: whitesmoke;
+}
+
+#shinyForm {
+  width: 100%;
+  max-width: 611.58px;
+  padding: 71px;
+}
+
+#shinyForm input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background-color: #f8f9fa;
+  border-radius: 50px;
+}
+
+#shinyForm .form-check-input:checked,
+#shinyForm .form-check-input {
+  background-color: #edeffc;
+  border-color: #edeffc;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 35px;
+}
+
+#shinyForm .form-check-input:checked[type="checkbox"] {
+  background-image: url(./../img/checkmark.png);
+}
+
+a.confirmation-link {
+  font-size: 23.77px;
+  padding: 15.85px 95.5px;
+  margin: 97px 0;
+}
