@@ -115,7 +115,7 @@
   width: 80%;
 }
 
-.testimonials .gap-5 {
+.testimonials.gap-5 {
   gap: 5rem !important;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .pricing {
-  width: 79%;
+  width: 87.62%;
 }
 
 .pricing .card-title {
