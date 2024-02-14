@@ -234,12 +234,21 @@ a.confirmation-link {
 .confirmation {
   margin-bottom: 57px;
 }
+
 .confirmation .confirmation__icon {
   position: relative;
   width: 28px;
   height: 28px;
   border: 1px solid black;
   border-radius: 50%;
+}
+
+.confirmation__group .confirmation__icon::after {
+  position: absolute;
+  content: var(--before-content);
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .confirmation__group:not(:last-of-type) .confirmation__icon::before {
